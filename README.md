@@ -9,9 +9,9 @@ See also
 
 ### HOW TO USE THIS TEMPLATE
 
-> **DO NOT FORK** this is meant to be used from **[Use this template](https://github.com/rochacbruno/python-project-template/generate)** feature.
+> **DO NOT FORK** this is meant to be used from **[Use this template](https://github.com/BorjaEst/python-project-template/generate)** feature.
 
-1. Click on **[Use this template](https://github.com/rochacbruno/python-project-template/generate)**
+1. Click on **[Use this template](https://github.com/BorjaEst/python-project-template/generate)**
 3. Give a name to your project  
    (e.g. `my_awesome_project` recommendation is to use all lowercase and underscores separation for repo names.)
 3. Wait until the first run of CI finishes  
@@ -26,8 +26,8 @@ See also
 ### What is included on this template?
 
 - 🖼️ Templates for starting multiple application types:
-  * **Basic low dependency** Python program (default) [use this template](https://github.com/rochacbruno/python-project-template/generate)
-  * **Flask** with database, admin interface, restapi and authentication [use this template](https://github.com/rochacbruno/flask-project-template/generate).
+  * **Basic low dependency** Python program (default) [use this template](https://github.com/BorjaEst/python-project-template/generate)
+  * **Flask** with database, admin interface, restapi and authentication [use this template](https://github.com/BorjaEst/flask-project-template/generate).
   **or Run `make init` after cloning to generate a new project based on a template.**
 - 📦 A basic [setup.py](setup.py) file to provide installation, packaging and distribution for your project.  
   Template uses setuptools because it's the de-facto standard for Python packages, you can run `make switch-to-poetry` later if you want.
