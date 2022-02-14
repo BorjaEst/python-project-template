@@ -40,12 +40,13 @@ Lets take a look at the structure of this template:
 ├── README.md                # The main readme for the project
 ├── setup.py                 # The setup.py file for installing and packaging the project
 ├── requirements.txt         # An empty file to hold the requirements for the project
-├── requirements-test.txt    # List of requirements for testing and devlopment
+├── requirements-test.txt    # List of requirements for testing and development
 ├── setup.py                 # The setup.py file for installing and packaging the project
-└── tests                    # Unit tests for the project (add mote tests files here)
-    ├── conftest.py          # Configuration, hooks and fixtures for pytest
-    ├── __init__.py          # This tells Python that this is a test package
-    └── test_base.py         # The base test case for the project
+├── tests                    # Unit tests for the project (add mote tests files here)
+|   ├── conftest.py          # Configuration, hooks and fixtures for pytest
+|   ├── __init__.py          # This tells Python that this is a test package
+|   └── test_base.py         # The base test case for the project
+└── tox.ini                  # Tox configuration to automate and standardize testing
 ```
 
 ## FAQ
